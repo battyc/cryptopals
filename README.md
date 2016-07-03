@@ -4,8 +4,6 @@ This repository contains my personal solutions to the challenges posed at crypop
 
 Feel free to review them for whatever purpose but please do not re-submit them to the site as your own.
 
-Note that all of the challenges for each set are solved within one file due to their overlapping nature.
-
 Thank you!
 
 Chris
