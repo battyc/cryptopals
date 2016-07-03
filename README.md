@@ -22,4 +22,6 @@ Chris
 
 **Challenge 5** - Implement repeating-key XOR
 
+**Challenge 6** - Break repeating-key XOR
+
 ---
