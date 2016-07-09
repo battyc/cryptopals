@@ -84,9 +84,11 @@ def normalized_hamm_dist(all_bytes, keysize):
 def chall_six():
 	with open("chall6file.txt", "r") as f:
 		all_bytes = ""
+		
 		for line in f:
 			all_bytes += line.strip()
 		all_bytes = a2b_base64(all_bytes)
+
 		hamm_dist_list = []
 
 		# get hamming distance for each possible key
@@ -94,6 +96,7 @@ def chall_six():
 			hamm_dist_list.append([keysize, normalized_hamm_dist(all_bytes, keysize)])
 		hamm_dist_list.sort(key= lambda ksize: ksize[1])
 
+		print(hamm_dist_list)
 		key_len = hamm_dist_list[0][0]
 		
 		transposed = [bytearray() for n in range(key_len)]

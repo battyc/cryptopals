@@ -24,4 +24,6 @@ Chris
 
 **Challenge 6** - Break repeating-key XOR
 
+**Challenge 7** - AES in ECB mode
+
 ---
