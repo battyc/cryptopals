@@ -27,4 +27,5 @@ Chris
 **Challenge 7** - AES in ECB mode
 
 **Challenge 8** - Detect AES in ECB mode
+
 ---
